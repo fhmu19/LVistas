@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.edu.labvistas">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LabVistas">
+        <activity android:name=".VistaDos"></activity>
+        <activity android:name=".VistaDiez" />
+        <activity android:name=".VistaNueve" />
+        <activity android:name=".VistaOcho" />
+        <activity android:name=".VistaSiete" />
+        <activity android:name=".VistaSeis" />
+        <activity android:name=".VistaCinco" />
+        <activity android:name=".VistaCuatro" />
+        <activity android:name=".VistaTres" />
+        <activity android:name=".VistaUno" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

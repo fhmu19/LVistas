@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">LabVistas</string>
+    <string name="to" />
+    <string name="Message">Message</string>
+    <string name="TOO">To</string>
+    <string name="on">On</string>
+    <string name="Off">Off</string>
+    <string name="ONN">On</string>
+
+    <string-array name="spinner_values">
+        <item>light</item>
+        <item>amber</item>
+        <item>brown</item>
+        <item>dark</item>
+
+    </string-array>
+</resources>

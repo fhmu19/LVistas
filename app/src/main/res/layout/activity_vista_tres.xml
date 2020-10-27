@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".VistaTres">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:text="hello"
+        android:textSize="22sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="hi!"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btn_atras"
+            android:layout_marginLeft="40dp"
+            android:text="Atras"
+            android:textColor="@color/design_default_color_error"
+            android:background="@color/cardview_shadow_end_color"
+            android:textSize="22sp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:onClick="btn_Inicio"
+            android:text="Siguiente"
+            android:textColor="@color/design_default_color_error"
+            android:background="@color/cardview_shadow_end_color"
+            android:textSize="22sp"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>
